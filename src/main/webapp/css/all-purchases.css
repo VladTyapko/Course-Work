@@ -1,0 +1,245 @@
+label {
+    text-align: center;
+    font-size: 0.9em;
+    width: 35px;
+}
+.container-top-div {
+    background-size: contain;
+    background-blend-mode: color-burn;
+    align-content: center;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 15px;
+    border: 15px solid rgba(45, 0, 0, 0.92);
+    border-right-color: #3e0000;
+    border-left-color: #3e0000;
+    padding: 10px 50px;
+    color: white;
+    background-color: rgba(79, 0, 0, 0.6);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 2px black;
+    transition: all 1s ease-out;
+}
+#first-p {
+    font-size: 1.6em;
+}
+.container-top-div-p {
+    border: 2px solid black;
+    font-weight: bold;
+    width: 80%;
+    font-family: monospace;
+    box-shadow: 0 0 20px black;
+    border-radius: 3px;
+    margin: 20px auto;
+    background-color: rgba(68, 0, 0, 0.91);
+    padding: 10px 50px;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 0.8em;
+    color: white;
+    background-color: #232323ed;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+
+.forms {
+    margin-top: 10px;
+}
+label {
+    margin-top: 5px;
+}
+.purchases-history {
+    display: block;
+    width: 80%;
+    font-size: 1em;
+    margin: 20px auto;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 15px #3e0000, -2px -2px 12px #3e0000;
+}
+
+.container {
+    margin: 50px;
+    filter: drop-shadow(2px 6px 6px black);
+    border: 12px solid #1d1918;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+ul.container-uls {
+    text-align: center;
+    background-color: #360000ba;
+    list-style: none;
+    border-radius: 5%;
+    padding: 20px;
+    transition: all 1s ease-out;
+}
+
+ul.container-uls li {
+    display: inline;
+}
+
+ul.container-uls li label {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .9);
+    border: 2px solid rgba(139, 139, 139, .3);
+    color: #adadad;
+    border-radius: 50px 50px 180px 180px;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s;
+    width: 80px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+ul.container-uls li label {
+}
+
+ul.container-uls li label::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    padding: 2px 6px 2px 2px;
+
+    transition: transform .3s ease-in-out;
+}
+
+ul.container-uls li input[type="checkbox"]:checked + label::before {
+
+    transform: rotate(-360deg);
+    transition: transform .3s ease-in-out;
+}
+
+ul.container-uls li input[type="checkbox"]:checked + label {
+
+    border: 3px solid #ffffff;
+    background-color: rgb(54, 214, 54);;
+    color: #fff;
+    transition: all .2s;
+}
+
+ul.container-uls li input[type="checkbox"] {
+    position: absolute;
+}
+
+ul.container-uls li input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 0.8em;
+    color: white;
+    background-color: #232323ed;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+h1{
+    box-shadow: 0 0 20px black;
+    font-size: 1.05em;
+    padding: 10px;
+    border-radius: 2%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content-form {
+
+    margin-top: 20px;
+    min-height: max-content;
+    padding: 15px;
+    border-radius: 3%;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+    background: rgba(100, 20, 20, 0.81);
+}
+ul.container-uls li input[type="checkbox"]:focus + label {
+    border: 2px solid #e9a1ff;
+}
+#promocode {
+    height: 20px;
+}
+.product-buy-submit-button {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #730f0fd4;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 7%;
+    border: white solid 3px;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+input[type=checkbox]:disabled + label {
+    background-color: #b32121;
+    color: white;
+    border: 3px solid white;
+}
+input[type=submit] {
+    outline: none;
+}
+
+input[type=submit]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.53);
+}
+
+input[type=submit]:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type=submit]:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+input[type=submit] {
+    animation: moveInButton 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+input[type=submit]:after {
+    color: wheat;
+}
+.main-content {
+    min-height: 1200px;
+}

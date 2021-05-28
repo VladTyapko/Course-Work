@@ -1,0 +1,270 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #252525;
+    max-height: max-content;
+    transition: all 1s ease-out;
+}
+
+.hrefs {
+    font-family: Recursive, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.hrefs:hover #authorization_icon {
+    font-weight: bold;
+    filter: grayscale(100%);
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+.hrefs:hover {
+    text-shadow: none;
+    font-weight: bold;
+    filter: invert(84%);
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+
+.href-to-servlet-forwarder:hover {
+    color: #1c1c1c;
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+#header {
+    z-index: 5;
+    padding: 10px;
+    background-color: #252525; /* Серый фон */
+    /* Немного отступов */
+    /* text-align: center; Центрированный текст */
+    font-size: 50px; /* Большой размер шрифта */
+    font-weight: bold;
+    position: fixed; /* Фиксированное положение-сидеть на верхней части страницы */
+    top: 0;
+    width: 100%; /* Полная ширина */
+    transition: 0.3s; /* Добавить эффект перехода (при прокрутке-и размер шрифта уменьшается) */
+}
+
+.header-main-button {
+    margin-left: 4%;
+    border-bottom-left-radius: 35%;
+    border-top-right-radius: 30%;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    height: border-box;
+    width: max-content;
+    background-color: #b01818;
+    color: white;
+}
+
+#header-main-button-url {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-main-auth {
+    border-bottom-left-radius: 25%;
+    border-top-left-radius: 25%;
+    position: absolute;
+    font-size: smaller;
+    right: 30px;
+    margin-block-end: auto;
+    padding: 10px;
+    display: inline-block;
+    height: border-box;
+    width: max-content;
+    background-color: #b01818;
+    color: white;
+}
+
+#header-main-auth-font {
+    font-size: 30px;
+}
+
+#authorization_icon {
+    border-radius: 25%;
+    max-width: 35px;
+}
+
+.header-main-menu {
+    padding: 10px;
+    display: inline-block;
+    background-color: #b01818;
+}
+
+#header-main-menu-stripes {
+    max-height: 40px;
+    filter: invert(97%);
+}
+
+#main {
+    margin-top: 99px;
+    color: white;
+    max-height: max-content;
+    width: 100%;
+    background-image: url("https://thumbs.dreamstime.com/b/chaotic-geometry-backgrounds-dark-color-chaotic-geometry-backgrounds-dark-color-use-covers-placards-posters-flyers-banner-178397442.jpg");
+}
+#main-ticket-buy{
+    margin-top: 99px;
+    color: white;
+    max-height: max-content;
+    width: 100%;
+    background: url("https://www.creativefabrica.com/wp-content/uploads/2019/01/Pattern-geometric-background-by-iop_micro-580x386.jpg");
+}
+
+#main-menu-list {
+    background-color: #b01818;
+    position: fixed;
+    width: 18%;
+    height: max-content;
+    margin: 0;
+    left: 0;
+    padding: 0;
+
+}
+
+.main-menu-list-stripes {
+    width: 98%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #252525;
+    background-color: #b01818;
+    font-size: 30px;
+    font-family: Recursive, sans-serif;
+}
+
+.main-content {
+    backdrop-filter: blur(3px);
+    font-size: 1.5em;
+    padding: 30px;
+    min-height: 800px;
+    width: 60%;
+    margin: 0 auto;
+    background: linear-gradient(
+            360deg, #700000, #410000c7, #420000db);
+}
+
+.authorization-main {
+    background-color: #f1f1f1;
+    font-size: 1.3em;
+}
+
+form {
+    margin: 0;
+}
+
+.authorization-form {
+    color: black;
+    margin: 10% auto;
+    width: 30%;
+    background-color: white;
+    border-style: solid;
+    border-color: #b01818;
+    border-width: 5px;
+    border-radius: 15%;
+    padding: 50px;
+
+}
+
+.menu-buttons {
+    padding: 10px;
+    width: 100%;
+}
+
+.href-to-servlet-forwarder {
+    text-align: left;
+    padding: 7px;
+    margin: 0;
+    color: white;
+    border: none;
+}
+input[type=submit] {
+    outline: none;
+}
+input[type=submit]:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(14, 13, 13, 0.53);
+}
+
+input[type=submit]:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type=submit]:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+input[type=submit] {
+    animation: moveInButton 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+input[type=submit]:after {
+    color: wheat;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }}
+
+footer {
+    overflow: hidden;
+    height: 150px;
+    width: 100%;
+    background: #252525;
+    background: url(https://prikolist.club/wp-content/uploads/2019/07/kartinki_kinolenta_1_29184648.png);
+    background-size: cover;
+    filter: contrast(0.9);
+}
+#logo {
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 18px;
+    font-size: 3em;
+}
+.footer-p {
+    color: white;
+}
+.footer-sign{
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+#footer-img {
+    position: relative;
+    bottom: 0;
+    left: 1490px;
+    filter: brightness(0.4);
+    top: -183px;
+    width: 175px;
+}
+.footer-hrefs{
+    color: white;
+    position: relative;
+    top: -270px;
+    margin: 50px;
+    left: 533px;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+.footer-hrefs:hover {
+    font-size: 1.7em;
+    color: #cdcdcd;
+}

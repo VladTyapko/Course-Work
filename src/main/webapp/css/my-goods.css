@@ -1,0 +1,96 @@
+.good {
+    position: relative;
+    box-sizing: border-box;
+    width: 500px;
+    align-items: center;
+    min-height: max-content;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #FBFBFB;
+}
+
+.good:before, .good:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    height: 6px;
+    width: 480px;
+}
+
+.good:before {
+    top: -5px;
+    background: radial-gradient(circle, transparent, transparent 50%, #FBFBFB 50%, #FBFBFB 100%) -11px -8px/32px 16px repeat-x;
+}
+
+.good:after {
+    bottom: -5px;
+    background: radial-gradient(circle, transparent, transparent 50%, #FBFBFB 50%, #FBFBFB 100%) -15px -2px/32px 17px repeat-x;
+}
+
+.good__content {
+    text-align: center;
+    width: 100%;
+    backdrop-filter: blur( 3px );
+    box-sizing: border-box;
+    background: #ffffff5c;
+    margin: 10px auto;
+    min-height: 100%;
+    max-height: max-content;
+    border: 6px solid #D8D8D8;
+}
+
+.good__text {
+    border-radius: 5px;
+    border: 2px solid #1c1c1c;
+    font-size: 1.5em;
+    width: 85%;
+    font-family: monospace;
+    margin: 35px auto;
+    word-break: break-all;
+    padding: 10px;
+    color: #252525;
+}
+
+.good__text.bolder {
+    font-weight: bold;
+}
+
+.submiters {
+    height: 50px;
+    width: 90%;
+    color: #ffffff;
+    background: #6a0000de;
+    font-size: 1.1em;
+    font-family: unset;
+    text-align: center;
+}
+.back-img {
+    align-items: center;
+    position: inherit;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+}
+h1 {
+    width: 80%;
+    border: 10px solid #1a1a1a;
+    background: #ffffff05;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur( 1px );
+    font-size: 3.5em;
+    text-shadow: 0 0 10px black;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+}
+#form-to-center {
+    text-align: right;
+    width: 20%;
+}
+#form-breake-words {
+    word-break: break-all;
+}

@@ -1,0 +1,94 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    max-height: max-content;
+
+}
+
+.hrefs {
+    font-family: Recursive, sans-serif;
+    text-decoration: none;
+    text-after-overflow: red;
+    color: white;
+}
+
+
+.hrefs:hover {
+    filter: invert(100%);
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+#header {
+    z-index: 5;
+    padding: 10px;
+    background-color: #f1f1f1; /* Серый фон */
+    /* Немного отступов */
+    /* text-align: center; Центрированный текст */
+    font-size: 50px; /* Большой размер шрифта */
+    font-weight: bold;
+    position: fixed; /* Фиксированное положение-сидеть на верхней части страницы */
+    top: 0;
+    width: 100%; /* Полная ширина */
+    transition: 0.3s; /* Добавить эффект перехода (при прокрутке-и размер шрифта уменьшается) */
+
+}
+
+.header-main-button {
+    margin-left: 4%;
+    border-bottom-left-radius: 35%;
+    border-top-right-radius: 30%;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    height: border-box;
+    width: max-content;
+    background-color: #b01818;
+    color: white;
+}
+
+#header-main-button-url {
+    font-weight: bold;
+    text-decoration: none;
+}
+#main {
+    margin-top: 10%;
+    color: white;
+    max-height: max-content;
+    width: 100%;
+    background-image: url("https://lh4.googleusercontent.com/-XplyTa1Za-I/VMSgIyAYkHI/AAAAAAAADxM/oL-rD6VP4ts/w1184-h666/Android-Lollipop-wallpapers-Google-Now-Wallpaper-2.png");
+}
+#main-box {
+    padding: 5%;
+    margin-left: 30%;
+    width: 30%;
+    height: 30%;
+    background-color: #c9b0b0;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #b01818;
+
+}
+hr {
+    width: 80%;
+    height: 3px;
+    color: #b01818;
+}
+.main-box-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #b01818;
+}
+#return {
+    color: #b01818;
+}
+#href-to-servlet-forwarder {
+    padding: 0;
+    text-align: left;
+    color: white;
+    border: none;
+}
